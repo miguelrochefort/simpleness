@@ -92,6 +92,17 @@ img, li {
   margin: .5em 0;
 }
 
+header.menus div:last-child {
+  margin-left: auto;
+}
+
+img.logo {
+  height: 32px;
+  width: 32px;
+  margin-right: 50px;
+
+}
+
 img {
   border-radius: 5px;
   max-width: 100%;
@@ -140,7 +151,7 @@ pre {
 body > header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: normal;
   align-items: center;
   background: rgba(255, 255, 255, 0.02);
   box-shadow: 0 0 .6em rgba(28, 29, 34, 0.05);
