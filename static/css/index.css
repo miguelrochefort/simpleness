@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: light) {
   html {
-    background: #ffffff;
+    background: #00ff00;
     color: #1c1d22;
   }
 }
@@ -23,7 +23,7 @@
 @media (prefers-color-scheme: dark) {
   html {
     background: #1c1d22;
-    color: #ffffff;
+    color: #00ff00;
   }
 }
 
