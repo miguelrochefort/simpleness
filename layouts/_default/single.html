@@ -16,17 +16,6 @@
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 02, 2006" }}</time> &nbsp; 
     {{ end }}
 
-    <!-- {{ .Params.author }} &nbsp; -->
-
-    <!-- Valine Vistors Start -->
-    <!-- {{ if and .Site.Params.valine.enable (or (ne .Site.BaseURL "http://localhost:1313/") .Site.Params.valine.debug) }}
-      <i class="far fa-eye"></i>
-      <span id="{{ .Permalink | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
-          <span class="leancloud-visitors-count"> {{ T "valinePV" }} </span>
-      </span> &nbsp;
-    {{ end }} -->
-    <!-- Valine Vistors End -->
-
     {{ if .Site.Params.enableReadingTime }}
       <i class="far fa-clock"></i>
       {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
