@@ -33,7 +33,7 @@
 
   {{ .Content }}
 
-  {{ if or (gt .Params.tags 0) .Lastmod }}
+  <!-- {{ if or (gt .Params.tags 0) .Lastmod }}
   <footer>
     <hr>
     {{ if ne .Lastmod .Date }}
@@ -56,7 +56,7 @@
 
   {{ partial "related.html" . }}
 
-  {{ partial "comments.html" . }}
+  {{ partial "comments.html" . }} -->
 
 </article>
 
