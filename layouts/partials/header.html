@@ -5,13 +5,13 @@
   <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   {{ end }}
 
-  <nav >
+  <nav>
     {{ range .Site.Menus.main }}
     <a href="{{ .URL }}"> {{ .Name }}</a>
     {{ end }}
   </nav>
 
-  <nav class="fontawesome">     
+  <nav class="fontawesome" style="margin-left: auto;">     
     {{ if .Site.Social.twitter }}
     <a href="{{ .Site.Social.twitter }}" target="_blank">
         <i title="GitHub" class="fab fa-twitter"></i>
