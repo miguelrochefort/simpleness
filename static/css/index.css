@@ -107,6 +107,7 @@ img.logo {
   height: 40px;
   width: 40px;
   border-radius: 2px;
+  margin: 0;
 }
 
 a.logo {
