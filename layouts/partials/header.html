@@ -1,7 +1,7 @@
 <header class="menus">
-  <a href="{{ .Site.BaseURL }}">
+  <a href="{{ .Site.BaseURL }}" class="logo">
     <img src="{{ .Site.Params.Logo }}" class="logo" />
-  </a>  
+  </a>
 
   {{ if not (gt (len .Site.Menus) 0) }}
   <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
